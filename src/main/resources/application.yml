@@ -1,0 +1,6 @@
+resilience4j:
+  retry:
+    instances:
+      retryApi:
+        max-attempts: 4
+        wait-duration: 6s
