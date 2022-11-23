@@ -16,6 +16,6 @@ public class TestController {
 
     @GetMapping
     public Test find() {
-        return testService.execute();
+        return testService.process();
     }
 }
